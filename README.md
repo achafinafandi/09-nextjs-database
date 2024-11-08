@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Praktikum 1: Setup Database dengan PostgreSQL
 
-## Getting Started
+Pada praktikum ini, saya telah mengikuti langkah-langkah untuk membuat project baru dengan template yang telah disediakan. Setelah itu, saya menghubungkan repositori GitHub ke Vercel untuk melakukan deploy aplikasi.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Langkah-langkah yang telah dilakukan:
+1. Membuat repositori baru dengan template starter code yang diberikan.
+2. Membuat akun Vercel dan menghubungkannya dengan GitHub.
+3. Deploy project ke Vercel.
+
+Langkah 1: Membuat Project Baru dengan Template
+Klik link template GitHub: Buka template starter code dan klik tombol Use this template untuk membuat repositori baru.
+Beri Nama Repo: Setelah memilih template, beri nama repositori tersebut: 09-nextjs-database.
+Pilih Akun GitHub: Pastikan repositori tersebut berada di akun GitHub Anda.
+Langkah 2: Membuat Akun Vercel
+Daftar Akun Vercel: Jika Anda belum memiliki akun Vercel, daftar terlebih dahulu di tautan ini.
+Pilih Plan "Hobby": Pilih plan "Hobby" yang gratis dan isi dengan nama Anda.
+Koneksikan dengan GitHub: Setelah selesai mendaftar, pilih opsi Continue with GitHub untuk menghubungkan akun Vercel Anda dengan akun GitHub yang sudah Anda buat.
+Langkah 3: Koneksikan dan Deploy Project
+Pilih Repo yang akan di-Deploy: Setelah terhubung dengan GitHub, pilih repositori 09-nextjs-database yang baru saja Anda buat untuk diimpor ke Vercel.
+Beri Nama Project dan Deploy: Setelah repositori terpilih, beri nama project di Vercel dan klik Deploy.
+Tunggu Proses Deploy: Tunggu beberapa saat hingga proses deploy selesai (± 1 menit). Setelah itu, Anda akan mendapatkan URL project yang sudah berhasil di-deploy.
+ 
+### Apa yang dipelajari:
+- Saya belajar bagaimana cara deploy aplikasi Next.js ke platform Vercel menggunakan repositori GitHub.
+- Proses deploy di Vercel berjalan dengan cepat dan otomatis, termasuk fitur auto-deploy setiap kali ada perubahan di branch `main`.
+- Vercel juga menyediakan pratinjau instan untuk pull requests, yang memudahkan tim dalam melakukan review sebelum perubahan diterapkan.
+
+Hasil deploy dapat diakses melalui URL berikut: [URL PROJECT DEPOY]
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
